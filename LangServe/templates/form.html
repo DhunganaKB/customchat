@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Ask LLM a jock about your topics of interest</title>
+</head>
+<body>
+<form method="post">
+    <p style="color:blue; font-size:30px">Provide a topic on which you want to find a joke</p>
+
+    <input style="font-size:25px;" type="text" name="topic" value="{{ topic }}"/>
+    <input style="font-size:25px;" type="submit">
+</form>
+<p style="color:blue; font-size:20px">Here is the joke:</p>
+<p style="color:red; font-size:18px">{{ result }}</p>
+
+</body>
+</html>
